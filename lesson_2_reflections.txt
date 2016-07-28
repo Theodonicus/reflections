@@ -39,3 +39,16 @@ How do the diagrams help you visualize the branch structure?
 The diagrams make it clear which commits are reachable from the current 
 position. Aditionally they make it more clear at which point branches seperated 
 and how much they have diverged in that time.
+
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+Merging the two branches combined the changes added in the coins branch with the 
+changes from the master branch that had taken place since their last common 
+commit. Creating a new master branch with both coins and all other changes that 
+had been applied to the master branch previously. The diagram allows you to see 
+that the new master branch is a parent of more than one commit from different 
+branches prior to the merge. The child commits on the coins branch do not have 
+the changes from the master branch. They are only all incorporated at the point 
+where the branches were merged.
