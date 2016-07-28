@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+It allowed me to see line that were modified, and to know where in the file they 
+were located. If the bug wasn't there previously it stands to reason that it 
+was introduced in one or more of the lines of code that were modified in the 
+new version. By showing only the modified lines of code, there was less for me 
+to scan through in order to spot the bug.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+All of the changes to the file are easily to locate. Less time will be spent 
+scanning the code for bugs if you only need to look at the sections that have 
+changed.
+
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google 
+Docs does?
+
+Pros:
+    You only create commits in logical places. Therefore you create committs of 
+        nonfuncitonal code
+    You can add a description to the commit explaining why it was done.
+    There is a frame of reference you can use when comparing different commits 
+other         than time.
+    Doesn't waste storage by committing too often.
+
+Cons:
+
+    If you are forgetful, you may not commit often enough.
+    It requires you to learn how to manually use version control software.
+    
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git was designed for tracking versions of source code which may have many 
+interconnected and related files, while google docs was created to handle many 
+different kinds of documents, but that likely have no relationship to eachother.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+Using version control means that not only can you revert back to an old version 
+if you break something, but you can also find the offending code much more 
+easily.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to design a text adventure game, use git as version control.
