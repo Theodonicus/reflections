@@ -20,3 +20,14 @@ change?
 
 By only adding files to the staging area that are related to the logical change, 
 you can make seperate commits for each change.
+
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+If you want to create changes that have the potential the break the program or 
+are experimental, you can create a branch for these changes, while leaving the 
+master branch unchanged. In this way you may test test these new changes in your 
+branch, but also still have access to the master version. This could allow you 
+to fix bugs in the stable version for example, while testing new features in the 
+experimental branch.
