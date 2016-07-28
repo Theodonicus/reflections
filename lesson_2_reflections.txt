@@ -3,3 +3,13 @@ What happens when you initialize a repository? Why do you need to do it?
 It creates the .git directory which stores information about the repository. 
 Without initializing your repsository you are working with normal directories 
 and files, that are not being tracked by git.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The working directory includes all files in our current directory, while the 
+staging area only includes files that are being utilized for the next commit. 
+This could be useful if you do not want to add all the files in your working 
+directory to the next commit. For example if some of the files are a part of a 
+different logical change or feature, it might make sense to commit them 
+seperately.
