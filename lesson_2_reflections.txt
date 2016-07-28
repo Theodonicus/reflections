@@ -13,3 +13,10 @@ This could be useful if you do not want to add all the files in your working
 directory to the next commit. For example if some of the files are a part of a 
 different logical change or feature, it might make sense to commit them 
 seperately.
+
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+By only adding files to the staging area that are related to the logical change, 
+you can make seperate commits for each change.
