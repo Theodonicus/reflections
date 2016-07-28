@@ -1,12 +1,12 @@
-What happens when you initialize a repository? Why do you need to do it?
+    What happens when you initialize a repository? Why do you need to do it?
 
 It creates the .git directory which stores information about the repository. 
 Without initializing your repsository you are working with normal directories 
 and files, that are not being tracked by git.
 
 
-How is the staging area different from the working directory and the repository? 
-What value do you think it offers?
+    How is the staging area different from the working directory and the repository? 
+    What value do you think it offers?
 
 The working directory includes all files in our current directory, while the 
 staging area only includes files that are being utilized for the next commit. 
@@ -16,15 +16,15 @@ different logical change or feature, it might make sense to commit them
 seperately.
 
 
-How can you use the staging area to make sure you have one commit per logical 
-change?
+    How can you use the staging area to make sure you have one commit per logical 
+    change?
 
 By only adding files to the staging area that are related to the logical change, 
 you can make seperate commits for each change.
 
 
-What are some situations when branches would be helpful in keeping your history 
-organized? How would branches help?
+    What are some situations when branches would be helpful in keeping your history 
+    organized? How would branches help?
 
 If you want to create changes that have the potential the break the program or 
 are experimental, you can create a branch for these changes, while leaving the 
@@ -34,15 +34,15 @@ to fix bugs in the stable version for example, while testing new features in the
 experimental branch.
 
 
-How do the diagrams help you visualize the branch structure?
+    How do the diagrams help you visualize the branch structure?
 
 The diagrams make it clear which commits are reachable from the current 
 position. Aditionally they make it more clear at which point branches seperated 
 and how much they have diverged in that time.
 
 
-What is the result of merging two branches together? Why do we represent it in 
-the diagram the way we do?
+    What is the result of merging two branches together? Why do we represent it in 
+    the diagram the way we do?
 
 Merging the two branches combined the changes added in the coins branch with the 
 changes from the master branch that had taken place since their last common 
@@ -52,3 +52,13 @@ that the new master branch is a parent of more than one commit from different
 branches prior to the merge. The child commits on the coins branch do not have 
 the changes from the master branch. They are only all incorporated at the point 
 where the branches were merged.
+
+
+    What are the pros and cons of Git’s automatic merging vs. always doing merges 
+    manually?
+
+Automatic merging is very convenient, when it works. It saves quite a bit of 
+time vs the manual approach. Sometimes the automatic merging can fail with a 
+conflict, which is unfortunate, but it will show you in your code the sections 
+that were ambiguous, allowing you to more easily make the change. Manual merging 
+would give you a bit of control, but could be very time consuming in large files.
