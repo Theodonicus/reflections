@@ -4,6 +4,7 @@ It creates the .git directory which stores information about the repository.
 Without initializing your repsository you are working with normal directories 
 and files, that are not being tracked by git.
 
+
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 
@@ -31,3 +32,10 @@ master branch unchanged. In this way you may test test these new changes in your
 branch, but also still have access to the master version. This could allow you 
 to fix bugs in the stable version for example, while testing new features in the 
 experimental branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams make it clear which commits are reachable from the current 
+position. Aditionally they make it more clear at which point branches seperated 
+and how much they have diverged in that time.
