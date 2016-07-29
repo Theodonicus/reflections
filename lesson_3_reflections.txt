@@ -12,3 +12,15 @@ releases, using a remote repository would make that simple.
 You might be working on something in your local repository that you are not 
 ready to share, and you dont want an automatic pull to overwrite or modify and 
 changes you're working on.
+
+
+    Describe the differences between forks, clones, and branches. When would you use 
+    one instead of another?
+
+Clones create a copy of a repository with the exact same committs present in the 
+original cloned repository. A fork is essentially the same, except that it is 
+done on Github and it links back to the original repository despite being 
+considered its own seperate new repository. A branch pertains more to individual 
+repositories. Branching allows you to implement features within an existing 
+repository with out chaning your main code base. For example to implement 
+experimental features that you may decide you do not want in the long run.s
