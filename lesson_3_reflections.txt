@@ -23,4 +23,13 @@ done on Github and it links back to the original repository despite being
 considered its own seperate new repository. A branch pertains more to individual 
 repositories. Branching allows you to implement features within an existing 
 repository with out chaning your main code base. For example to implement 
-experimental features that you may decide you do not want in the long run.s
+experimental features that you may decide you do not want in the long run.
+
+
+    What is the benefit of having a copy of the last known state of the remote 
+    stored locally?
+
+You may want to work on a project from a place without internet access at some 
+point, and by storing the most recent state of the remote you can compare your 
+changes to that branch. This will allow you to know if you are ahead of the 
+branch, behindm or out of sync.
