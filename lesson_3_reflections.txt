@@ -33,3 +33,14 @@ You may want to work on a project from a place without internet access at some
 point, and by storing the most recent state of the remote you can compare your 
 changes to that branch. This will allow you to know if you are ahead of the 
 branch, behindm or out of sync.
+
+
+    How would you collaborate without using Git or GitHub? What would be easier, and 
+    what would be harder?
+
+I would probably use another form of version control software. In the past I 
+have used subversion. I think Git had a steeper learning curve, but now that I'm 
+learning it, I do not really find it any harder. I guess I would just say 
+learning Git is harder, but regular use is not. I find the ability to do offline 
+version control makes working easier, which puts Git a step ahead of svn in that 
+regard.
