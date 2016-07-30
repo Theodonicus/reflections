@@ -44,3 +44,22 @@ learning it, I do not really find it any harder. I guess I would just say
 learning Git is harder, but regular use is not. I find the ability to do offline 
 version control makes working easier, which puts Git a step ahead of svn in that 
 regard.
+
+
+    When would you want to make changes in a separate branch rather than directly in 
+    master? What benefits does each approach have?
+
+There are a couple of reasons you might want to make changes in a seperate 
+branch rather than master. One case would be to make changes you are unsure you 
+will want to stick with long term, or that have the potential to break the 
+project. This allows you make changes in the main code base without worrying 
+about the effect the experimental would have on your code. Another situation you 
+may want to use branches for is in collaboration. If you would like you 
+implement a feature but want to get approval from other team members before 
+applying it to the main code base, you can push it to the hub as a seperate 
+branch and create a pull request. This allows other developers to look it over 
+before merging it into the master branch. One benefit to merging directly into 
+the master branch might be that your changes are applied immediately and there 
+will be less work required to add the changes than there would be if it stayed 
+in a seperate branch for too long and many changes were made to the master 
+branch that caused merge conflicts.
